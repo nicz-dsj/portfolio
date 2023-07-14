@@ -5,6 +5,7 @@
     position: absolute;
     top: 0;
     width: 100%;
+    z-index: 10;
 }
 
 .navigation .container{
@@ -13,7 +14,7 @@
     align-items: center;
     justify-content: space-between;
     margin: 2em;
-    padding: 3em 6em;
+    padding: 1.5em 6em;
     width: 80%;
 }
 
@@ -50,7 +51,6 @@
     animation: fade-in 2s;
     position: fixed;
     top: 0;
-    z-index: 2;
     opacity: 0.7;
     transition: 0.5s;
 }

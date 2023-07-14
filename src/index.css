@@ -13,8 +13,9 @@
   src: url("./fonts/Mona-Sans-Bold.ttf") format('truetype');
 }
 
-html{
-  scroll-behavior: smooth;
+@font-face {
+  font-family: 'Mona-Sans SemiBold';
+  src: url("./fonts/Mona-Sans-SemiBold.ttf") format('truetype');
 }
 
 body {
