@@ -33,3 +33,13 @@
     color: white;
     background-color: #151515;
 }
+
+@media screen and (max-width: 870px) {
+    .contact-list{
+        flex-direction: column;
+    }
+
+    .contact-list a{
+        margin: 1em 0;
+    }
+}
