@@ -10,31 +10,38 @@
     font-size: 3em;
     margin: 1.5em 0;
     color: #4b41bd;
+    text-align: center;
 }
 
 .abilities-list{
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    width: 70%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .abilities-item{
-    border: 3px solid white;
-    margin: 1em;
-    padding: 2em 2em 4em;
+    padding: 2em 10em;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    border-radius: 10px;
+}
+
+.abilities-item:nth-child(even){
+    background-color: #282828;
+    flex-direction: row-reverse;
 }
 
 .abilities-item svg{
-    margin-bottom: 2em;
+    margin-right: 2em;
+}
+
+.abilities-item:nth-child(even) svg{
+    margin-right: 0;
+    margin-left: 2em;
 }
 
 .abilities-item svg path{
@@ -46,4 +53,18 @@
 .abilities-item span{
     font-family: "Mona-Sans Bold";
     font-size: 1.2em;
+}
+
+@media screen and (max-width: 650px){
+    .abilities-item, .abilities-item:nth-child(even){
+        padding: 2em 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .abilities-item svg, .abilities-item:nth-child(even) svg{
+        margin: 0 0 1em;
+    }
 }

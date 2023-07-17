@@ -3,30 +3,15 @@ import './presentation.css';
 import { MDBCard, MDBCardBody, MDBContainer } from "mdb-react-ui-kit";
 
 function Presentation(){
-    const [ visible, setVisible ] = useState(false);
-
-    function show(){
-        if (window.scrollY >= 330){
-            setVisible(true);
-        }
-        else{
-            setVisible(false);
-        }
-    }
-    window.addEventListener('scroll', show);
-    window.addEventListener('scroll', function (){
-        console.log(window.scrollY)
-    });
-
     return(
         <section id="presentation-section">
-            <h1 className={visible ? 'presentation-title visible' : 'presentation-title'}>Présentation</h1>
+            <h1 className="presentation-title">Présentation</h1>
             <div className="presentation-text">
                 <h2>Quel est mon objectif ?</h2>
                 <p>Passionné depuis mon plus jeune âge par l'informatique et les nouvelles technologies, mon objectif est de devenir développeur web confirmé. J'ai commencé mon aventure au lycée en seconde avec la
                     spécialité Informatique et Création Numérique (ICN) dans lequel j'ai commencé à réaliser mes premiers projets. Depuis mon envie de progresser ne m'a jamais quitté et
                     j'ai découvert au fil du temps de nouvelles technologies afin de pouvoir mener à bien mes projets.</p>
-                <button>Mon CV</button>
+                <a href="https://drive.google.com/file/d/1HLDLqrCa06CAQM2PbPGOTzP5lIiuZvVQ/view?usp=sharing" target="_blank">Mon CV</a>
             </div>
             <div className="presentation-timeline">
                 <h2>Mon parcours</h2>
@@ -38,7 +23,8 @@ function Presentation(){
                                     <h3>2023</h3>
                                     <p className="mb-0">
                                         Stage de fin de deuxième année de Bachelor Universitaire de Technologie (BUT) en Informatique au sein de l'association
-                                        Femmes d'AURA en tant que développeur web.
+                                        Femmes d'AURA en tant que développeur web. Ci-joint <a href="https://drive.google.com/file/d/1C-_U3VEKuvkpjCit4nR3PEM9FnG0NX5g/view?usp=sharing">mon rapport de stage</a> qui
+                                        détaille les tâches que j'ai réalisé durant cette période.
                                     </p>
                                 </MDBCardBody>
                             </MDBCard>
@@ -49,7 +35,8 @@ function Presentation(){
                                     <h3>2021 - 2024</h3>
                                     <p className="mb-0">
                                         Bachelor Universitaire de Technologie (BUT) en Informatique à l'IUT Lyon 1 à Villeurbanne site Doua pour une
-                                        durée de 3 ans.
+                                        durée de 3 ans. Dès mon entrée en deuxième année, j'ai choisi la spécialité Réalisation d'Applications et je compte
+                                        choisir cette spécialité pour ma troisième année.
                                     </p>
                                 </MDBCardBody>
                             </MDBCard>

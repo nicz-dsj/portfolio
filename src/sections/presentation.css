@@ -10,6 +10,7 @@
     font-size: 3em;
     margin: 1.5em 0;
     color: #4b41bd;
+    text-align: center;
 }
 
 #presentation-section h2{
@@ -33,20 +34,23 @@
     line-height: 1.5em;
 }
 
-.presentation-text button{
-    font-family: "Mona-Sans Bold";
-    padding: 0.5em 2em;
-    background: linear-gradient(#4b41bd, #6e4b96);
-    color: white;
-    border: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border-radius: 10px;
+.presentation-text a{
+    text-decoration: none;
+    background-color: transparent;
+    color: #4b41bd;
+    border: #4b41bd solid 3px;
+    width: 15em;
+    margin: 0 1em;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-family: "Mona-Sans SemiBold";
+    transition: 0.4s;
 }
 
-.presentation-text button:hover{
-    background: linear-gradient(#bd7f41, #96854b);
+.presentation-text a:hover{
+    color: white;
+    background-color: #4b41bd;
+    color: #151515;
 }
 
 .presentation-text button svg{
@@ -177,4 +181,13 @@
 .card p{
     font-family: "Mona-Sans Light";
     text-align: justify;
+}
+
+.card a{
+    color: #4b41bd;
+    text-decoration: none;
+}
+
+.card a:hover{
+    text-decoration: underline;
 }
