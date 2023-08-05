@@ -11,7 +11,7 @@ function Presentation(){
                 <p>Passionné depuis mon plus jeune âge par l'informatique et les nouvelles technologies, mon objectif est de devenir développeur web confirmé. J'ai commencé mon aventure au lycée en seconde avec la
                     spécialité Informatique et Création Numérique (ICN) dans lequel j'ai commencé à réaliser mes premiers projets. Depuis mon envie de progresser ne m'a jamais quitté et
                     j'ai découvert au fil du temps de nouvelles technologies afin de pouvoir mener à bien mes projets.</p>
-                <a href="https://drive.google.com/file/d/1HLDLqrCa06CAQM2PbPGOTzP5lIiuZvVQ/view?usp=sharing" target="_blank">Mon CV</a>
+                <a href="https://drive.google.com/file/d/1aaUdHxEsB45laQ5YuyU4H8-ZZcXluDQn/view?usp=sharing" target="_blank">Mon CV</a>
             </div>
             <div className="presentation-timeline">
                 <h2>Mon parcours</h2>
