@@ -1,6 +1,7 @@
 import React from 'react';
 import {Carousel} from "react-bootstrap";
 import './projects.css';
+import cdlv from '../img/cdlv.png';
 import travelmate from '../img/travelmate.jpg';
 import trouvetonplat from '../img/trouvetonplat.png';
 import snake from '../img/snake.png';
@@ -14,6 +15,13 @@ function Projects(){
             <h1>Mes projets</h1>
             <div className="projects-list">
                 <Carousel>
+                    <Carousel.Item>
+                        <img className="d-block w-100" src={cdlv}/>
+                        <Carousel.Caption>
+                            <h3><a href="https://cheffesdanslaville.com" target="_blank">Cheffes dans la ville</a></h3>
+                            <p>2023</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src={travelmate}/>
                         <Carousel.Caption>
