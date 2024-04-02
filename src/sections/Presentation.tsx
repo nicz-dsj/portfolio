@@ -8,7 +8,7 @@ function Presentation(){
             <h1 className="presentation-title">Présentation</h1>
             <div className="presentation-text">
                 <h2>Quel est mon objectif ?</h2>
-                <p>Passionné depuis mon plus jeune âge par l'informatique et les nouvelles technologies, mon objectif est de devenir développeur web confirmé. J'ai commencé mon aventure au lycée en seconde avec la
+                <p>Passionné depuis mon plus jeune âge par l'informatique et les nouvelles technologies, mon objectif est de devenir ingénieur en intelligence artificielle. J'ai commencé mon aventure au lycée en seconde avec la
                     spécialité Informatique et Création Numérique (ICN) dans lequel j'ai commencé à réaliser mes premiers projets. Depuis mon envie de progresser ne m'a jamais quitté et
                     j'ai découvert au fil du temps de nouvelles technologies afin de pouvoir mener à bien mes projets.</p>
                 <a href="https://drive.google.com/file/d/102OVWh4_DtowhKYT9bYF6Y6oexa4wqx6/view?usp=sharing" target="_blank">Mon CV</a>
