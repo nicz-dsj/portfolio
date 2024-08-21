@@ -123,7 +123,7 @@ function Abilities(){
                             </ul>
                         </div>
                         <div>
-                            <p>Projets associés</p>
+                            <h3>Projets associés</h3>
                             <ul>
                                 <li>Usibee</li>
                                 <li>Travelmate</li>
@@ -155,7 +155,7 @@ function Abilities(){
                         </div>
 
                         <div>
-                            <p>Projets associés</p>
+                            <h3>Projets associés</h3>
                             <ul>
                                 <li>Usibee</li>
                             </ul>
@@ -182,7 +182,7 @@ function Abilities(){
                             </ul>
                         </div>
                         <div>
-                            <p>Projets associés</p>
+                            <h3>Projets associés</h3>
                             <ul>
                                 <li>Usibee</li>
                                 <li>Travelmate</li>
@@ -213,7 +213,7 @@ function Abilities(){
                             </ul>
                         </div>
                         <div>
-                            <p>Projets associés</p>
+                            <h3>Projets associés</h3>
                             <ul>
                                 <li>Usibee</li>
                                 <li>Cheffes dans la ville</li>
@@ -256,7 +256,7 @@ function Abilities(){
                             </ul>
                         </div>
                         <div>
-                            <p>Projets associés</p>
+                            <h3>Projets associés</h3>
                             <ul>
                                 <li>Usibee</li>
                                 <li>Cheffes dans la ville</li>
