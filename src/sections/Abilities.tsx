@@ -141,12 +141,10 @@ function Abilities(){
                             <h3>Apprentissages critiques</h3>
                             <p>Semestre 1</p>
                             <ul>
-                                <ul>
-                                    <li>13.01 | Identifier les différents composants (matériels et logiciels) d’un système numérique</li>
-                                    <li>13.02 | Utiliser les fonctionnalités de base d’un système multitâches / multiutilisateurs</li>
-                                    <li>13.03 | Installer et configurer un système d’exploitation et des outils de développement</li>
-                                    <li>13.04 | Configurer un poste de travail dans un réseau d’entreprise</li>
-                                </ul>
+                                <li>13.01 | Identifier les différents composants (matériels et logiciels) d’un système numérique</li>
+                                <li>13.02 | Utiliser les fonctionnalités de base d’un système multitâches / multiutilisateurs</li>
+                                <li>13.03 | Installer et configurer un système d’exploitation et des outils de développement</li>
+                                <li>13.04 | Configurer un poste de travail dans un réseau d’entreprise</li>
                             </ul>
                             <p>Semestre 2</p>
                             <ul>
@@ -171,11 +169,9 @@ function Abilities(){
                             <h3>Apprentissages critiques</h3>
                             <p>Semestre 1</p>
                             <ul>
-                                <ul>
-                                    <li>14.01 | Mettre à jour et interroger une base de données relationnelle (en requêtes directes ou à travers une application)</li>
-                                    <li>14.02 | Visualiser des données</li>
-                                    <li>14.03 | Concevoir une base de données relationnelle à partir d’un cahier des charges</li>
-                                </ul>
+                                <li>14.01 | Mettre à jour et interroger une base de données relationnelle (en requêtes directes ou à travers une application)</li>
+                                <li>14.02 | Visualiser des données</li>
+                                <li>14.03 | Concevoir une base de données relationnelle à partir d’un cahier des charges</li>
                             </ul>
                             <p>Semestre 2</p>
                             <ul>
@@ -204,11 +200,9 @@ function Abilities(){
                             <h3>Apprentissages critiques</h3>
                             <p>Semestre 1</p>
                             <ul>
-                                <ul>
-                                    <li>15.01 | Appréhender les besoins du client et de l'utilisateur</li>
-                                    <li>15.02 | Mettre en place les outils de gestion de projet</li>
-                                    <li>15.03 | Identifier les acteurs et les différentes phases d’un cycle de développement</li>
-                                </ul>
+                                <li>15.01 | Appréhender les besoins du client et de l'utilisateur</li>
+                                <li>15.02 | Mettre en place les outils de gestion de projet</li>
+                                <li>15.03 | Identifier les acteurs et les différentes phases d’un cycle de développement</li>
                             </ul>
                             <p>Semestre 2</p>
                             <ul>
@@ -240,12 +234,10 @@ function Abilities(){
                             <h3>Apprentissages critiques</h3>
                             <p>Semestre 1</p>
                             <ul>
-                                <ul>
-                                    <li>16.01 | Appréhender l’écosystème numérique</li>
-                                    <li>16.02 | Découvrir les aptitudes requises selon les différents secteurs informatiques</li>
-                                    <li>16.03 | Identifier les statuts, les fonctions et les rôles de chaque membre d’une équipe pluridisciplinaire</li>
-                                    <li>16.04 | Acquérir les compétences interpersonnelles pour travailler en équipe</li>
-                                </ul>
+                                <li>16.01 | Appréhender l’écosystème numérique</li>
+                                <li>16.02 | Découvrir les aptitudes requises selon les différents secteurs informatiques</li>
+                                <li>16.03 | Identifier les statuts, les fonctions et les rôles de chaque membre d’une équipe pluridisciplinaire</li>
+                                <li>16.04 | Acquérir les compétences interpersonnelles pour travailler en équipe</li>
                             </ul>
                             <p>Semestre 2</p>
                             <ul>
