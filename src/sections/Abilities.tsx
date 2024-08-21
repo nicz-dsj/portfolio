@@ -1,4 +1,5 @@
 import React from 'react';
+import {Accordion} from "react-bootstrap";
 import './abilities.css';
 
 function Abilities(){
@@ -39,14 +40,170 @@ function Abilities(){
                     <span>Vue.js</span>
                 </div>
                 <div className="abilities-item">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="150px" height="150px"><path d="M 16 3 C 8.832 3 3 8.832 3 16 C 3 23.168 8.832 29 16 29 C 23.168 29 29 23.168 29 16 C 29 8.832 23.168 3 16 3 z M 16 5 C 22.065 5 27 9.935 27 16 C 27 22.065 22.065 27 16 27 C 9.935 27 5 22.065 5 16 C 5 9.935 9.935 5 16 5 z M 20.271484 10.076172 C 20.198484 10.078172 17.758172 9.941625 16.326172 14.140625 C 15.938172 13.821625 14.100406 11.630484 12.066406 13.146484 C 11.336406 13.692484 10.854172 14.993797 11.951172 16.216797 C 12.604172 16.915797 12.980594 17.192953 12.808594 17.751953 C 12.455594 18.899953 10.66775 18.373687 10.84375 17.804688 C 10.89575 17.634688 10.978938 17.631781 11.085938 17.300781 C 11.383938 16.324781 10.040953 15.847344 9.7519531 16.777344 C 9.5859531 17.319344 9.8434687 18.298562 11.230469 18.726562 C 12.854469 19.225562 14.228828 18.3405 14.423828 17.1875 C 14.547828 16.4655 14.221047 15.929281 13.623047 15.238281 L 13.136719 14.699219 C 12.841719 14.402219 12.739922 13.900625 13.044922 13.515625 C 13.301922 13.189625 13.668531 13.051844 14.269531 13.214844 C 15.146531 13.452844 15.537453 14.061734 16.189453 14.552734 C 16.142453 14.706734 15.804281 15.797937 15.488281 17.710938 C 15.022281 20.156938 14.665234 21.499531 13.740234 22.269531 C 13.554234 22.404531 13.287719 22.603188 12.886719 22.617188 C 12.811719 22.620187 12.342594 22.508766 12.808594 22.134766 C 13.395594 21.813766 13.077375 20.795219 12.234375 20.824219 C 11.854375 20.836219 11.276828 21.192656 11.298828 21.847656 C 11.320828 22.523656 11.950391 23.031047 12.900391 22.998047 C 13.408391 22.981047 14.541203 22.775266 15.658203 21.447266 C 17.193203 19.647266 17.485391 17.509797 17.900391 15.216797 C 19.891391 15.452797 20.876625 14.529797 20.890625 13.841797 C 20.911625 12.905797 19.81025 12.938672 19.65625 13.638672 C 19.58225 13.978672 20.174891 14.284984 19.712891 14.583984 C 19.385891 14.795984 18.798656 14.945219 17.972656 14.824219 C 18.369656 12.634219 18.709187 10.4875 20.242188 10.4375 C 20.347188 10.4315 20.729281 10.443312 20.738281 10.695312 C 20.743281 10.903312 20.476328 11.067875 20.486328 11.421875 C 20.501328 11.823875 20.806047 12.086313 21.248047 12.070312 C 21.839047 12.049312 22.008047 11.475687 21.998047 11.179688 C 21.973047 10.483688 21.240484 10.045172 20.271484 10.076172 z"/></svg>
-                    <span>Symfony</span>
+                    <svg fill="#000000" width="150px" height="150px" viewBox="0 0 24 24" role="img"
+                         xmlns="http://www.w3.org/2000/svg"><title>Laravel icon</title>
+                        <path
+                            d="M23.644 5.43c.009.032.014.065.014.099v5.15c0 .135-.073.26-.189.326l-4.323 2.49v4.934c0 .135-.072.258-.188.326L9.931 23.95c-.021.012-.043.02-.066.027-.008.002-.016.008-.024.01-.063.018-.13.018-.192 0-.011-.002-.02-.008-.029-.012-.021-.008-.043-.014-.063-.025L.534 18.755c-.117-.068-.189-.191-.189-.326V2.974c0-.033.005-.066.014-.098.003-.012.01-.021.014-.032.006-.02.014-.04.023-.058.004-.013.015-.022.023-.033.012-.016.021-.031.033-.045.012-.01.025-.018.037-.027.014-.012.027-.024.041-.034h.001L5.044.05c.115-.067.259-.067.375 0l4.512 2.597h.002c.015.01.027.021.041.033.012.009.025.018.037.027.013.014.021.029.033.045.008.011.02.021.025.033.011.019.017.038.024.058.003.011.011.021.013.032.01.031.014.064.014.098v9.652l3.76-2.164V5.527c0-.033.005-.066.014-.098.003-.011.009-.021.013-.032.007-.02.014-.039.024-.059.007-.012.018-.021.025-.033.012-.015.021-.03.033-.043.012-.012.025-.02.037-.028.014-.011.026-.023.041-.032h.001l4.513-2.598c.116-.067.259-.067.375 0l4.513 2.598c.016.01.027.021.042.031.012.01.025.018.036.028.013.014.022.029.034.044.008.012.019.021.024.033.011.02.018.039.024.059.006.011.012.022.015.033zm-.74 5.032V6.179l-1.578.908-2.182 1.256v4.283l3.76-2.164zm-4.511 7.75v-4.287l-2.146 1.225-6.127 3.498v4.326l8.273-4.762zM1.095 3.624v14.588l8.273 4.762v-4.326l-4.322-2.445-.002-.003h-.002c-.014-.01-.025-.021-.04-.031-.011-.01-.024-.018-.035-.027l-.001-.002c-.013-.012-.021-.025-.031-.039-.01-.012-.021-.023-.028-.037h-.002c-.008-.014-.013-.031-.02-.047-.006-.016-.014-.027-.018-.043-.004-.018-.006-.037-.008-.057-.002-.014-.006-.027-.006-.041V5.789l-2.18-1.257-1.578-.908zM5.231.81l-3.76 2.164 3.76 2.164 3.758-2.164L5.231.81zm1.956 13.505l2.182-1.256V3.624l-1.58.909-2.182 1.256v9.435l1.58-.909zM18.769 3.364l-3.76 2.164 3.76 2.163 3.759-2.164-3.759-2.163zm-.376 4.979l-2.182-1.256-1.579-.908v4.283l2.182 1.256 1.579.908V8.343zm-8.65 9.654l5.514-3.148 2.756-1.572-3.757-2.163-4.324 2.489-3.941 2.27 3.752 2.124z"/>
+                    </svg>
+                    <span>Laravel</span>
                 </div>
                 <div className="abilities-item">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="150px" height="150px" viewBox="0 0 448 512"><path d="M448 80v48c0 44.2-100.3 80-224 80S0 172.2 0 128V80C0 35.8 100.3 0 224 0S448 35.8 448 80zM393.2 214.7c20.8-7.4 39.9-16.9 54.8-28.6V288c0 44.2-100.3 80-224 80S0 332.2 0 288V186.1c14.9 11.8 34 21.2 54.8 28.6C99.7 230.7 159.5 240 224 240s124.3-9.3 169.2-25.3zM0 346.1c14.9 11.8 34 21.2 54.8 28.6C99.7 390.7 159.5 400 224 400s124.3-9.3 169.2-25.3c20.8-7.4 39.9-16.9 54.8-28.6V432c0 44.2-100.3 80-224 80S0 476.2 0 432V346.1z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="150px" height="150px" viewBox="0 0 448 512">
+                        <path
+                            d="M448 80v48c0 44.2-100.3 80-224 80S0 172.2 0 128V80C0 35.8 100.3 0 224 0S448 35.8 448 80zM393.2 214.7c20.8-7.4 39.9-16.9 54.8-28.6V288c0 44.2-100.3 80-224 80S0 332.2 0 288V186.1c14.9 11.8 34 21.2 54.8 28.6C99.7 230.7 159.5 240 224 240s124.3-9.3 169.2-25.3zM0 346.1c14.9 11.8 34 21.2 54.8 28.6C99.7 390.7 159.5 400 224 400s124.3-9.3 169.2-25.3c20.8-7.4 39.9-16.9 54.8-28.6V432c0 44.2-100.3 80-224 80S0 476.2 0 432V346.1z"/>
+                    </svg>
                     <span>SQL</span>
                 </div>
             </div>
+            <Accordion className="abilities-accordion">
+                <Accordion.Item eventKey="0">
+                    <Accordion.Header>Réaliser</Accordion.Header>
+                    <Accordion.Body>
+                        <div>
+                            <p>Apprentissages critiques</p>
+                            <ul>
+                                <li>11.01 | Implémenter des conceptions simples</li>
+                                <li>11.02 | Élaborer des conceptions simples</li>
+                                <li>11.03 | Faire des essais et évaluer leurs résultats en regard des
+                                    spécifications
+                                </li>
+                                <li>11.04 | Développer des interfaces utilisateurs</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p>Projets associés</p>
+                            <ul>
+                                <li>Usibee</li>
+                                <li>Cheffes dans la ville</li>
+                                <li>Travelmate</li>
+                                <li>Trouve ton plat</li>
+                                <li>Snake</li>
+                                <li>Graphe & Plan</li>
+                                <li>Gestion d'annuaire</li>
+                                <li>Présentation du BUT Informatique</li>
+                            </ul>
+                        </div>
+                    </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="1">
+                    <Accordion.Header>Optimiser</Accordion.Header>
+                    <Accordion.Body>
+                        <div>
+                            <p>Apprentissages critiques</p>
+                            <ul>
+                                <li>12.01 | Analyser un problème avec méthode (découpage en éléments algorithmiques
+                                    simples, structure de données...)
+                                </li>
+                                <li>12.02 | Comparer des algorithmes pour des problèmes classiques (tris simples,
+                                    recherche...)
+                                </li>
+                                <li>12.03 | Formaliser et mettre en œuvre des outils mathématiques pour
+                                    l’informatique
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p>Projets associés</p>
+                            <ul>
+                                <li>Usibee</li>
+                                <li>Travelmate</li>
+                                <li>Trouve ton plat</li>
+                                <li>Graphe & Plan</li>
+                                <li>Gestion d'annuaire</li>
+                            </ul>
+                        </div>
+                    </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="2">
+                    <Accordion.Header>Administrer</Accordion.Header>
+                    <Accordion.Body>
+                        <div>
+                            <p>Apprentissages critiques</p>
+                            <ul>
+                                <li>13.01 | Identifier les différents composants (matériels et logiciels) d’un
+                                    système numérique
+                                </li>
+                                <li>13.02 | Utiliser les fonctionnalités de base d’un système multitâches /
+                                    multiutilisateurs
+                                </li>
+                                <li>13.03 | Installer et configurer un système d’exploitation et des outils de
+                                    développement
+                                </li>
+                                <li>13.04 | Configurer un poste de travail dans un réseau d’entreprise</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p>Projets associés</p>
+                            <ul>
+                                <li>Usibee</li>
+                            </ul>
+                        </div>
+                    </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="3">
+                    <Accordion.Header>Gérer</Accordion.Header>
+                    <Accordion.Body>
+                        <div>
+                            <p>Apprentissages critiques</p>
+                            <ul>
+                                <li>14.01 | Mettre à jour et interroger une base de données relationnelle (en
+                                    requêtes directes ou à travers une application)
+                                </li>
+                                <li>14.02 | Visualiser des données</li>
+                                <li>14.03 | Concevoir une base de données relationnelle à partir d’un cahier des
+                                    charges
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p>Projets associés</p>
+                            <ul>
+                                <li>Usibee</li>
+                                <li>Travelmate</li>
+                                <li>Trouve ton plat</li>
+                                <li>Graphe & Plan</li>
+                                <li>Gestion d'annuaire</li>
+                            </ul>
+                        </div>
+                    </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="4">
+                    <Accordion.Header>Conduire</Accordion.Header>
+                    <Accordion.Body>
+                        <div>
+                            <p>Projets associés</p>
+                            <ul>
+                                <li>Usibee</li>
+                                <li>Cheffes dans la ville</li>
+                                <li>Travelmate</li>
+                                <li>Trouve ton plat</li>
+                                <li>Snake</li>
+                                <li>Graphe & Plan</li>
+                                <li>Gestion d'annuaire</li>
+                                <li>Présentation du BUT Informatique</li>
+                            </ul>
+                        </div>
+                    </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="5">
+                    <Accordion.Header>Collaborer</Accordion.Header>
+                    <Accordion.Body>
+                        <div>
+                            <p>Projets associés</p>
+                            <ul>
+                                <li>Usibee</li>
+                                <li>Cheffes dans la ville</li>
+                                <li>Travelmate</li>
+                                <li>Trouve ton plat</li>
+                                <li>Snake</li>
+                                <li>Graphe & Plan</li>
+                                <li>Gestion d'annuaire</li>
+                                <li>Présentation du BUT Informatique</li>
+                            </ul>
+                        </div>
+                    </Accordion.Body>
+                </Accordion.Item>
+            </Accordion>
         </section>
     );
 }

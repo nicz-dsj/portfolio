@@ -7,6 +7,7 @@ import trouvetonplat from '../img/trouvetonplat.png';
 import snake from '../img/snake.png';
 import graphmap from '../img/graphmap.png';
 import gestion from '../img/gestion.png';
+import usibee from '../img/usibee.png';
 import pres from '../img/pres.png';
 
 function Projects(){
@@ -15,6 +16,13 @@ function Projects(){
             <h1>Mes projets</h1>
             <div className="projects-list">
                 <Carousel>
+                    <Carousel.Item>
+                        <img className="d-block w-100" src={usibee}/>
+                        <Carousel.Caption>
+                            <h3><a href="https://usibee.com" target="_blank">Usibee</a></h3>
+                            <p>2023</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src={cdlv}/>
                         <Carousel.Caption>

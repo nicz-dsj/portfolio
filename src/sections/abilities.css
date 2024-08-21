@@ -55,6 +55,30 @@
     font-size: 1.2em;
 }
 
+.abilities-accordion {
+    width: 100%;
+}
+
+.abilities-accordion .accordion-item {
+    border: none !important;
+}
+
+.abilities-accordion button {
+    padding: 2em;
+    background-color: #151515;
+    color: white;
+}
+
+.abilities-accordion button::after {
+    filter: invert(1);
+}
+
+.abilities-accordion .accordion-collapse {
+    padding: 2em;
+    background-color: #282828 !important;
+    color: white;
+}
+
 @media screen and (max-width: 650px){
     .abilities-item, .abilities-item:nth-child(even){
         padding: 2em 0;
