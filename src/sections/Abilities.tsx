@@ -60,18 +60,30 @@ function Abilities(){
                     <Accordion.Header>Réaliser</Accordion.Header>
                     <Accordion.Body>
                         <div>
-                            <p>Apprentissages critiques</p>
+                            <h3>Apprentissages critiques</h3>
+                            <p>Semestre 1</p>
                             <ul>
                                 <li>11.01 | Implémenter des conceptions simples</li>
                                 <li>11.02 | Élaborer des conceptions simples</li>
-                                <li>11.03 | Faire des essais et évaluer leurs résultats en regard des
-                                    spécifications
-                                </li>
+                                <li>11.03 | Faire des essais et évaluer leurs résultats en regard des spécifications</li>
                                 <li>11.04 | Développer des interfaces utilisateurs</li>
+                            </ul>
+                            <p>Semestre 2</p>
+                            <ul>
+                                <li>21.01 | Élaborer et implémenter les spécifications fonctionnelles et non fonctionnelles à partir des exigences</li>
+                                <li>21.02 | Appliquer des principes d’accessibilité et d’ergonomie</li>
+                                <li>21.03 | Adopter de bonnes pratiques de conception et de programmation</li>
+                                <li>21.04 | Vérifier et valider la qualité de l’application par les tests</li>
+                            </ul>
+                            <p>Semestre 3</p>
+                            <ul>
+                                <li>31.01 | Choisir et implémenter les architectures adaptées</li>
+                                <li>31.02 | Faire évoluer une application existante</li>
+                                <li>31.03 | Intégrer des solutions dans un environnement de production</li>
                             </ul>
                         </div>
                         <div>
-                            <p>Projets associés</p>
+                            <h3>Projets associés</h3>
                             <ul>
                                 <li>Usibee</li>
                                 <li>Cheffes dans la ville</li>
@@ -89,17 +101,25 @@ function Abilities(){
                     <Accordion.Header>Optimiser</Accordion.Header>
                     <Accordion.Body>
                         <div>
-                            <p>Apprentissages critiques</p>
+                            <h3>Apprentissages critiques</h3>
+                            <p>Semestre 1</p>
                             <ul>
-                                <li>12.01 | Analyser un problème avec méthode (découpage en éléments algorithmiques
-                                    simples, structure de données...)
-                                </li>
-                                <li>12.02 | Comparer des algorithmes pour des problèmes classiques (tris simples,
-                                    recherche...)
-                                </li>
-                                <li>12.03 | Formaliser et mettre en œuvre des outils mathématiques pour
-                                    l’informatique
-                                </li>
+                                <li>12.01 | Analyser un problème avec méthode (découpage en éléments algorithmiques simples, structure de données...)</li>
+                                <li>12.02 | Comparer des algorithmes pour des problèmes classiques (tris simples, recherche...)</li>
+                                <li>12.03 | Formaliser et mettre en œuvre des outils mathématiques pour l’informatique</li>
+                            </ul>
+                            <p>Semestre 2</p>
+                            <ul>
+                                <li>22.01 | Choisir des structures de données complexes adaptées au problème</li>
+                                <li>22.02 | Utiliser des techniques algorithmiques adaptées pour des problèmes complexes (par ex. recherche opérationnelle, méthodes arborescentes, optimisation globale, intelligence artificielle...)</li>
+                                <li>22.03 | Comprendre les enjeux et moyens de sécurisation des données et du code</li>
+                                <li>22.04 | Évaluer l’impact environnemental et sociétal des solutions proposées</li>
+                            </ul>
+                            <p>Semestre 3</p>
+                            <ul>
+                                <li>32.01 | Anticiper les résultats de diverses métriques (temps d’exécution, occupation mémoire, montée en charge...)</li>
+                                <li>32.02 | Profiler, analyser et justifier le comportement d’un code existant</li>
+                                <li>32.03 | Choisir et utiliser des bibliothèques et méthodes dédiées au domaine d'application (imagerie, immersion, intelligence artificielle, jeux vidéos, parallélisme, calcul formel...)</li>
                             </ul>
                         </div>
                         <div>
@@ -118,20 +138,24 @@ function Abilities(){
                     <Accordion.Header>Administrer</Accordion.Header>
                     <Accordion.Body>
                         <div>
-                            <p>Apprentissages critiques</p>
+                            <h3>Apprentissages critiques</h3>
+                            <p>Semestre 1</p>
                             <ul>
-                                <li>13.01 | Identifier les différents composants (matériels et logiciels) d’un
-                                    système numérique
-                                </li>
-                                <li>13.02 | Utiliser les fonctionnalités de base d’un système multitâches /
-                                    multiutilisateurs
-                                </li>
-                                <li>13.03 | Installer et configurer un système d’exploitation et des outils de
-                                    développement
-                                </li>
-                                <li>13.04 | Configurer un poste de travail dans un réseau d’entreprise</li>
+                                <ul>
+                                    <li>13.01 | Identifier les différents composants (matériels et logiciels) d’un système numérique</li>
+                                    <li>13.02 | Utiliser les fonctionnalités de base d’un système multitâches / multiutilisateurs</li>
+                                    <li>13.03 | Installer et configurer un système d’exploitation et des outils de développement</li>
+                                    <li>13.04 | Configurer un poste de travail dans un réseau d’entreprise</li>
+                                </ul>
+                            </ul>
+                            <p>Semestre 2</p>
+                            <ul>
+                                <li>23.01 | Concevoir et développer des applications communicantes</li>
+                                <li>23.02 | Utiliser des serveurs et des services réseaux virtualisés</li>
+                                <li>23.03 | Sécuriser les services et données d’un système</li>
                             </ul>
                         </div>
+
                         <div>
                             <p>Projets associés</p>
                             <ul>
@@ -144,15 +168,21 @@ function Abilities(){
                     <Accordion.Header>Gérer</Accordion.Header>
                     <Accordion.Body>
                         <div>
-                            <p>Apprentissages critiques</p>
+                            <h3>Apprentissages critiques</h3>
+                            <p>Semestre 1</p>
                             <ul>
-                                <li>14.01 | Mettre à jour et interroger une base de données relationnelle (en
-                                    requêtes directes ou à travers une application)
-                                </li>
-                                <li>14.02 | Visualiser des données</li>
-                                <li>14.03 | Concevoir une base de données relationnelle à partir d’un cahier des
-                                    charges
-                                </li>
+                                <ul>
+                                    <li>14.01 | Mettre à jour et interroger une base de données relationnelle (en requêtes directes ou à travers une application)</li>
+                                    <li>14.02 | Visualiser des données</li>
+                                    <li>14.03 | Concevoir une base de données relationnelle à partir d’un cahier des charges</li>
+                                </ul>
+                            </ul>
+                            <p>Semestre 2</p>
+                            <ul>
+                                <li>24.01 | Optimiser les modèles de données de l’entreprise</li>
+                                <li>24.02 | Assurer la sécurité des données (intégrité et confidentialité)</li>
+                                <li>24.03 | Organiser la restitution de données à travers la programmation et la visualisation</li>
+                                <li>24.04 | Manipuler des données hétérogènes</li>
                             </ul>
                         </div>
                         <div>
@@ -171,6 +201,24 @@ function Abilities(){
                     <Accordion.Header>Conduire</Accordion.Header>
                     <Accordion.Body>
                         <div>
+                            <h3>Apprentissages critiques</h3>
+                            <p>Semestre 1</p>
+                            <ul>
+                                <ul>
+                                    <li>15.01 | Appréhender les besoins du client et de l'utilisateur</li>
+                                    <li>15.02 | Mettre en place les outils de gestion de projet</li>
+                                    <li>15.03 | Identifier les acteurs et les différentes phases d’un cycle de développement</li>
+                                </ul>
+                            </ul>
+                            <p>Semestre 2</p>
+                            <ul>
+                                <li>25.01 | Identifier les processus présents dans une organisation en vue d’améliorer les systèmes d’information</li>
+                                <li>25.02 | Formaliser les besoins du client et de l'utilisateur</li>
+                                <li>25.03 | Identifier les critères de faisabilité d’un projet informatique</li>
+                                <li>25.04 | Définir et mettre en œuvre une démarche de suivi de projet</li>
+                            </ul>
+                        </div>
+                        <div>
                             <p>Projets associés</p>
                             <ul>
                                 <li>Usibee</li>
@@ -188,6 +236,33 @@ function Abilities(){
                 <Accordion.Item eventKey="5">
                     <Accordion.Header>Collaborer</Accordion.Header>
                     <Accordion.Body>
+                        <div>
+                            <h3>Apprentissages critiques</h3>
+                            <p>Semestre 1</p>
+                            <ul>
+                                <ul>
+                                    <li>16.01 | Appréhender l’écosystème numérique</li>
+                                    <li>16.02 | Découvrir les aptitudes requises selon les différents secteurs informatiques</li>
+                                    <li>16.03 | Identifier les statuts, les fonctions et les rôles de chaque membre d’une équipe pluridisciplinaire</li>
+                                    <li>16.04 | Acquérir les compétences interpersonnelles pour travailler en équipe</li>
+                                </ul>
+                            </ul>
+                            <p>Semestre 2</p>
+                            <ul>
+                                <li>26.01 | Identifier les processus présents dans une organisation en vue d’améliorer les systèmes d’information</li>
+                                <li>26.02 | Comprendre la diversité, la structure et la dimension de l’informatique dans une organisation (ESN, DSI,...)</li>
+                                <li>26.03 | Appliquer une démarche pour intégrer une équipe informatique au sein d’une organisation</li>
+                                <li>26.03 | Mobiliser les compétences interpersonnelles pour travailler dans une équipe informatique</li>
+                                <li>26.03 | Rendre compte de son activité professionnelle</li>
+                            </ul>
+                            <p>Semestre 3</p>
+                            <ul>
+                                <li>36.01 | Organiser et partager une veille technologique et informationnelle</li>
+                                <li>36.02 | Identifier les enjeux de l’économie de l’innovation numérique</li>
+                                <li>36.03 | Guider la conduite du changement informatique au sein d’une organisation</li>
+                                <li>36.03 | Accompagner le management de projet informatique</li>
+                            </ul>
+                        </div>
                         <div>
                             <p>Projets associés</p>
                             <ul>
