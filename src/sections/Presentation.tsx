@@ -21,9 +21,7 @@ function Presentation(){
                     j'ai découvert au fil du temps de nouvelles technologies afin de pouvoir mener à bien mes
                     projets.</p>
                 <p>Actuellement en cours de réorientation, je souhaite poursuivre mon parcours dans le domaine de la Data ou de la Cybersécurité
-                en intégrant une formation en cycle ingénieur afin d'approfondir mes connaissances dans un contexte plus professionnalisant</p>
-                <a href="https://drive.google.com/file/d/102OVWh4_DtowhKYT9bYF6Y6oexa4wqx6/view?usp=sharing"
-                   target="_blank">Mon CV</a>
+                en intégrant une formation plus professionnalisante en cycle ingénieur afin d'approfondir mes compétences et connaissances.</p>
             </div>
             <div className="presentation-timeline">
                 <h2>Mon parcours</h2>
