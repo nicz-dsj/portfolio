@@ -7,7 +7,7 @@ function Home(){
         <section id="home-section">
             <div className="home-content">
                 <h1>Nicolas DE SAINT JEAN</h1>
-                <span>Étudiant en troisième année de Bachelor Universitaire de Technologie en Informatique</span>
+                <span>Étudiant en première année de Master en Informatique</span>
             </div>
         </section>
     );
