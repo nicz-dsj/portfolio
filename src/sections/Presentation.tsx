@@ -10,10 +10,9 @@ function Presentation(){
             <h1 className="presentation-title">Présentation</h1>
             <h2>Qui je suis ?</h2>
             <div className="presentation-text">
-                <p>Je m'appelle Nicolas, j'ai 20 ans et je suis actuellement en troisième année de BUT Informatique à
-                    Villeurbanne en parcours Réalisation d'Applications.
-                    J'effectue également un contrat d'apprentissage au sein de l'entreprise SDCI en tant que développeur
-                    web full-stack.</p>
+                <p>Je m'appelle Nicolas, j'ai 21 ans et je suis actuellement en première année de Master 1 Intelligence Artificielle
+                    et Facteurs Humains à l'Université de Caen Normandie.
+                </p>
                 <p>Passionné depuis mon plus jeune âge par l'informatique et les nouvelles technologies, mon objectif
                     est de devenir ingénieur en intelligence artificielle. J'ai commencé mon aventure au lycée en
                     seconde avec la
@@ -21,8 +20,8 @@ function Presentation(){
                     premiers projets. Depuis mon envie de progresser ne m'a jamais quitté et
                     j'ai découvert au fil du temps de nouvelles technologies afin de pouvoir mener à bien mes
                     projets.</p>
-                <p>L'année prochaine je compte poursuivre mes études en Master Informatique à l'Université de Caen
-                    Normandie avec comme spécialité l'intelligence artificielle et ses facteurs humains.</p>
+                <p>Actuellement en cours de réorientation, je souhaite poursuivre mon parcours dans le domaine de la Data ou de la Cybersécurité
+                en intégrant une formation en cycle ingénieur afin d'approfondir mes connaissances dans un contexte plus professionnalisant</p>
                 <a href="https://drive.google.com/file/d/102OVWh4_DtowhKYT9bYF6Y6oexa4wqx6/view?usp=sharing"
                    target="_blank">Mon CV</a>
             </div>
