@@ -10,8 +10,7 @@ function Presentation(){
             <h1 className="presentation-title">Présentation</h1>
             <h2>Qui je suis ?</h2>
             <div className="presentation-text">
-                <p>Je m'appelle Nicolas, j'ai 21 ans et je suis actuellement en première année de Master 1 Intelligence Artificielle
-                    et Facteurs Humains à l'Université de Caen Normandie.
+                <p>Je m'appelle Nicolas, j'ai 21 ans et je suis actuellement étudiant en Informatique à l'Université Caen Normandie.
                 </p>
                 <p>Passionné depuis mon plus jeune âge par l'informatique et les nouvelles technologies, mon objectif
                     est de devenir ingénieur en intelligence artificielle. J'ai commencé mon aventure au lycée en
@@ -20,8 +19,6 @@ function Presentation(){
                     premiers projets. Depuis mon envie de progresser ne m'a jamais quitté et
                     j'ai découvert au fil du temps de nouvelles technologies afin de pouvoir mener à bien mes
                     projets.</p>
-                <p>Actuellement en cours de réorientation, je souhaite poursuivre mon parcours dans le domaine de la Data ou de la Cybersécurité
-                en intégrant une formation plus professionnalisante en cycle ingénieur afin d'approfondir mes compétences et connaissances.</p>
             </div>
             <div className="presentation-timeline">
                 <h2>Mon parcours</h2>
@@ -53,13 +50,22 @@ function Presentation(){
                         <div className="timeline left">
                             <MDBCard>
                                 <MDBCardBody className="p-4">
+                                    <h3>2024 - 2025</h3>
+                                    <p className="mb-0">
+                                        Master 1 Informatique à l'Université de Caen Normande, avec comme parcours Intelligence Artificielle et Facteurs Humains.
+                                    </p>
+                                </MDBCardBody>
+                            </MDBCard>
+                        </div>
+                        <div className="timeline left">
+                            <MDBCard>
+                                <MDBCardBody className="p-4">
                                     <h3>2021 - 2024</h3>
                                     <p className="mb-0">
                                         Bachelor Universitaire de Technologie (BUT) en Informatique à l'IUT Lyon 1 à
                                         Villeurbanne site Doua pour une
                                         durée de 3 ans. Dès mon entrée en deuxième année, j'ai choisi la spécialité
-                                        Réalisation d'Applications et je compte
-                                        choisir cette spécialité pour ma troisième année.
+                                        Réalisation d'Applications.
                                     </p>
                                 </MDBCardBody>
                             </MDBCard>
