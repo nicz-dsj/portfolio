@@ -8,7 +8,6 @@ function Presentation(){
         <section id="presentation-section">
             <img src={photo}/>
             <h1 className="presentation-title">Présentation</h1>
-            <h2>Qui je suis ?</h2>
             <div className="presentation-text">
                 <p>Je m'appelle Nicolas, j'ai 21 ans et je suis actuellement étudiant en Informatique à l'Université Caen Normandie.
                 </p>
