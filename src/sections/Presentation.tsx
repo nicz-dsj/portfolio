@@ -22,6 +22,16 @@ function Presentation(){
             <div className="presentation-timeline">
                 <h2>Mon parcours</h2>
                 <MDBContainer fluid className="py-5">
+                    <div className="timeline right">
+                        <MDBCard>
+                            <MDBCardBody className="p-4">
+                                <h3>2024 - 2025</h3>
+                                <p className="mb-0">
+                                    Master 1 Informatique à l'Université de Caen Normande, avec comme parcours Intelligence Artificielle et Facteurs Humains.
+                                </p>
+                            </MDBCardBody>
+                        </MDBCard>
+                    </div>
                     <div className="main-timeline">
                         <div className="timeline left">
                             <MDBCard>
@@ -42,16 +52,6 @@ function Presentation(){
                                         Stage de fin de deuxième année de Bachelor Universitaire de Technologie (BUT) en
                                         Informatique au sein de l'association
                                         Femmes d'AURA en tant que développeur web.
-                                    </p>
-                                </MDBCardBody>
-                            </MDBCard>
-                        </div>
-                        <div className="timeline left">
-                            <MDBCard>
-                                <MDBCardBody className="p-4">
-                                    <h3>2024 - 2025</h3>
-                                    <p className="mb-0">
-                                        Master 1 Informatique à l'Université de Caen Normande, avec comme parcours Intelligence Artificielle et Facteurs Humains.
                                     </p>
                                 </MDBCardBody>
                             </MDBCard>
