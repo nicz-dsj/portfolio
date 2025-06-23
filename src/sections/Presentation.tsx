@@ -9,10 +9,10 @@ function Presentation(){
             <img src={photo}/>
             <h1 className="presentation-title">Présentation</h1>
             <div className="presentation-text">
-                <p>Je m'appelle Nicolas, j'ai 21 ans et je suis actuellement étudiant en Informatique à l'Université Caen Normandie.
+                <p>Je m'appelle Nicolas, j'ai 21 ans et je suis actuellement admis en cycle ingénieur à EPITA pour une formation en alternance en développement web.
                 </p>
                 <p>Passionné depuis mon plus jeune âge par l'informatique et les nouvelles technologies, mon objectif
-                    est de devenir ingénieur en intelligence artificielle. J'ai commencé mon aventure au lycée en
+                    est de devenir développeur web confirmé. J'ai commencé mon aventure au lycée en
                     seconde avec la
                     spécialité Informatique et Création Numérique (ICN) dans lequel j'ai commencé à réaliser mes
                     premiers projets. Depuis mon envie de progresser ne m'a jamais quitté et
@@ -22,17 +22,27 @@ function Presentation(){
             <div className="presentation-timeline">
                 <h2>Mon parcours</h2>
                 <MDBContainer fluid className="py-5">
-                    <div className="timeline right">
-                        <MDBCard>
-                            <MDBCardBody className="p-4">
-                                <h3>2024 - 2025</h3>
-                                <p className="mb-0">
-                                    Master 1 Informatique à l'Université de Caen Normande, avec comme parcours Intelligence Artificielle et Facteurs Humains.
-                                </p>
-                            </MDBCardBody>
-                        </MDBCard>
-                    </div>
                     <div className="main-timeline">
+                        <div className="timeline left">
+                            <MDBCard>
+                                <MDBCardBody className="p-4">
+                                    <h3>2025 - 2028</h3>
+                                    <p className="mb-0">
+                                        Cycle ingénieur en informatique à EPITA, avec comme majeure Développement web et nouvelles applications en alternance.
+                                    </p>
+                                </MDBCardBody>
+                            </MDBCard>
+                        </div>
+                        <div className="timeline right">
+                            <MDBCard>
+                                <MDBCardBody className="p-4">
+                                    <h3>2024 - 2025</h3>
+                                    <p className="mb-0">
+                                        Master 1 Informatique à l'Université de Caen Normande, avec comme parcours Intelligence Artificielle et Facteurs Humains.
+                                    </p>
+                                </MDBCardBody>
+                            </MDBCard>
+                        </div>
                         <div className="timeline left">
                             <MDBCard>
                                 <MDBCardBody className="p-4">
