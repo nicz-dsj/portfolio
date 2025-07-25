@@ -9,7 +9,6 @@
     font-family: "Mona-Sans Bold";
     font-size: 3em;
     margin: 1.5em 0;
-    color: #4b41bd;
     text-align: center;
 }
 
@@ -31,7 +30,7 @@
 }
 
 .abilities-item:nth-child(even){
-    background-color: #282828;
+    background-color: #dddbd8;
     flex-direction: row-reverse;
 }
 
@@ -47,7 +46,6 @@
 .abilities-item svg path{
     aspect-ratio: 1 / 1;
     width: 10em;
-    filter: invert(1);
 }
 
 .abilities-item span{

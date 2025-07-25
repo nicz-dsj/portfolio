@@ -35,6 +35,7 @@ header{
 
 .navigation span{
     cursor: pointer;
+    color: #eae5e0;
 }
 
 .navigation #website-name{
@@ -63,7 +64,7 @@ header{
 }
 
 .navigation.fixed{
-    background-color: #282828;
+    background-color: #000000;
     animation: fade-in 1s;
     position: fixed;
     top: 0;
@@ -72,7 +73,7 @@ header{
 }
 
 .navigation.fixed .container #website-name{
-    color: #4b41bd;
+    color: #eae5e0;
 }
 
 .navigation.fixed:hover{
@@ -116,7 +117,7 @@ header{
     }
 
     #website-name{
-        color: #4b41bd;
+        color: #eae5e0;
     }
 
     .navigation{

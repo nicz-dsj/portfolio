@@ -9,7 +9,7 @@
     font-family: "Mona-Sans Bold";
     font-size: 3em;
     margin: 1em 0;
-    color: #4b41bd;
+    color: #151515;
     text-align: center;
 }
 
@@ -20,9 +20,14 @@
 }
 
 #presentation-section img {
-    border-radius: 100%;
     width: 400px;
     margin-top: 2em;
+}
+
+.presentation-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .presentation-text{
@@ -43,7 +48,7 @@
 
 .presentation-text a {
     text-decoration: none;
-    color: #4b41bd;
+    color: #151515;
     font-weight: bold;
 }
 
@@ -67,7 +72,7 @@
     content: "";
     position: absolute;
     width: 6px;
-    background-color: #4b41bd;
+    background-color: #141414;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -86,8 +91,8 @@
     width: 25px;
     height: 25px;
     right: -13px;
-    background-color: #151515;
-    border: 5px solid #4b41bd;
+    background-color: #eae5e0;
+    border: 5px solid #141414;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -109,9 +114,9 @@
     top: 18px;
     z-index: 1;
     right: 30px;
-    border: medium solid #4b41bd;
+    border: medium solid #141414;
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent #4b41bd;
+    border-color: transparent transparent transparent #141414;
 }
 
 .right::before {
@@ -120,9 +125,9 @@
     top: 18px;
     z-index: 1;
     left: 30px;
-    border: medium solid #4b41bd;
+    border: medium solid #141414;
     border-width: 10px 10px 10px 0;
-    border-color: transparent #4b41bd transparent transparent;
+    border-color: transparent #141414 transparent transparent;
 }
 
 .right::after {
@@ -142,9 +147,9 @@
 
     .timeline::before {
         left: 60px;
-        border: medium solid #4b41bd;
+        border: medium solid #141414;
         border-width: 10px 10px 10px 0;
-        border-color: transparent #4b41bd transparent transparent;
+        border-color: transparent #141414 transparent transparent;
     }
 
     .left::after,
@@ -167,9 +172,9 @@
 }
 
 .card-body{
-    background-color: #151515;
-    color: white;
-    border: #4b41bd solid 3px;
+    background-color: transparent;
+    color: #141414;
+    border: #141414 solid 3px;
     border-radius: 10px;
 }
 
@@ -183,7 +188,7 @@
 }
 
 .card a{
-    color: #4b41bd;
+    color: #141414;
     text-decoration: none;
 }
 
