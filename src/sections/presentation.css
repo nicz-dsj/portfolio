@@ -41,23 +41,15 @@
     text-align: justify;
 }
 
-.presentation-text a{
+.presentation-text a {
     text-decoration: none;
-    background-color: transparent;
     color: #4b41bd;
-    border: #4b41bd solid 3px;
-    width: 15em;
-    margin: 0 1em;
-    padding: 1em 2em;
-    text-decoration: none;
-    font-family: "Mona-Sans SemiBold";
-    transition: 0.4s;
+    font-weight: bold;
 }
 
-.presentation-text a:hover{
-    color: white;
-    background-color: #4b41bd;
-    color: #151515;
+.presentation-text a:hover {
+    text-decoration: underline;
+
 }
 
 .presentation-text button svg{
