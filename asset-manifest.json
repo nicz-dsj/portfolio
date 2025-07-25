@@ -1,12 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.56d2b8d6.css",
-    "main.js": "/portfolio/static/js/main.44b8d67d.js",
+    "main.js": "/portfolio/static/js/main.f6c7b70a.js",
     "static/js/787.e2f95da9.chunk.js": "/portfolio/static/js/787.e2f95da9.chunk.js",
     "static/media/trouvetonplat.png": "/portfolio/static/media/trouvetonplat.bc7d84adf9123257bf1e.png",
-    "static/media/travelmate.jpg": "/portfolio/static/media/travelmate.a36ab31a1e5939d6e7d5.jpg",
     "static/media/pres.png": "/portfolio/static/media/pres.07899e5f44cb3a5eea48.png",
-    "static/media/graphmap.png": "/portfolio/static/media/graphmap.fdaf937e9caceae69a72.png",
     "static/media/usibee.png": "/portfolio/static/media/usibee.e1e8e57901632eb07c85.png",
     "static/media/20250724_1800s51.jpg": "/portfolio/static/media/20250724_1800s51.672f83f99568dcecf73e.jpg",
     "static/media/cdlv.png": "/portfolio/static/media/cdlv.f7e45972031d475f1889.png",
@@ -15,14 +13,13 @@
     "static/media/Mona-Sans-SemiBold.ttf": "/portfolio/static/media/Mona-Sans-SemiBold.f67328e31617fe339e45.ttf",
     "static/media/Mona-Sans-Bold.ttf": "/portfolio/static/media/Mona-Sans-Bold.2da6c3d63c75a91071fe.ttf",
     "static/media/Mona-Sans-Black.ttf": "/portfolio/static/media/Mona-Sans-Black.68aaf36a38e5c0d777a8.ttf",
-    "static/media/gestion.png": "/portfolio/static/media/gestion.e8054f63f7b234a067c2.png",
     "index.html": "/portfolio/index.html",
     "main.56d2b8d6.css.map": "/portfolio/static/css/main.56d2b8d6.css.map",
-    "main.44b8d67d.js.map": "/portfolio/static/js/main.44b8d67d.js.map",
+    "main.f6c7b70a.js.map": "/portfolio/static/js/main.f6c7b70a.js.map",
     "787.e2f95da9.chunk.js.map": "/portfolio/static/js/787.e2f95da9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56d2b8d6.css",
-    "static/js/main.44b8d67d.js"
+    "static/js/main.f6c7b70a.js"
   ]
 }
