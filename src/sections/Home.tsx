@@ -7,7 +7,7 @@ function Home(){
         <section id="home-section">
             <div className="home-content">
                 <h1>Nicolas DE SAINT JEAN</h1>
-                <span>Développeur full-stack - Développeur 3D - Designer UX/UI</span>
+                <span>Développeur Front-end / Full-stack - Designer UX/UI</span>
             </div>
         </section>
     );

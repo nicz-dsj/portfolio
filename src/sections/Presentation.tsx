@@ -12,12 +12,12 @@ function Presentation(){
                     <h1 className="presentation-title">Tout d'abord parlons de moi</h1>
                     <div className="presentation-text">
                         <p>Né en 2003 à Ecully près de Lyon, j’ai toujours été fasciné par ce que l’on peut créer avec un
-                            ordinateur. Très jeune, j’ai découvert le web en bidoullant des pages, puis la 3D en explorant les
+                            ordinateur. Très jeune, j’ai découvert le web en bidoullant des pages, et en explorant les
                             univers visuels qui me faisaient rêver. Aujourd’hui encore, ce qui me motive c’est de donner vie à
-                            des idées, que ce soit à travers une interface web fluide ou une animation 3D qui parle
+                            des idées, que ce soit à travers une interface web fluide qui parle
                             d’elle-même.</p>
                         <p>Après un bac technologique avec une option numérique, j’ai intégré le BUT Informatique de l’IUT Lyon
-                            1, où j’ai découvert le développement web, les bases de données et un peu de modélisation 3D. Mes
+                            1, où j’ai découvert le développement web et les bases de données. Mes
                             stages et mon alternance m’ont permis de mettre en pratique ces compétences sur des projets
                             concrets, confirmant mon intérêt pour le web et les technologies visuelles.</p>
                         <p>Après une première année de master en intelligence artificielle, j’ai choisi de me recentrer sur une

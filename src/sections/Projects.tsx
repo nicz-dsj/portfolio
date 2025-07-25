@@ -31,13 +31,6 @@ function Projects(){
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img className="d-block w-100" src={travelmate}/>
-                        <Carousel.Caption>
-                            <h3><a href="https://github.com/nicz-dsj/TravelMate" target="_blank">Travelmate</a></h3>
-                            <p>2023</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
                         <img className="d-block w-100" src={trouvetonplat}/>
                         <Carousel.Caption>
                             <h3><a href="https://trouvetonplat.alwaysdata.net" target="_blank">Trouve ton plat</a></h3>
@@ -49,20 +42,6 @@ function Projects(){
                         <Carousel.Caption>
                             <h3><a href="https://nicz-dsj.github.io/projet-js-snake/public/" target="_blank">Snake</a></h3>
                             <p>2022</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img className="d-block w-100" src={graphmap}/>
-                        <Carousel.Caption>
-                            <h3><a href="https://github.com/nicz-dsj/Graphe-Plan" target="_blank">Graph & Plan</a></h3>
-                            <p>2022</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img className="d-block w-100" src={gestion}/>
-                        <Carousel.Caption>
-                            <h3><a href="https://github.com/nicz-dsj/gestion-annuaire" target="_blank">Gestion d'annuaire</a></h3>
-                            <p>2021</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
