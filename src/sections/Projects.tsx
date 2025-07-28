@@ -41,7 +41,7 @@ function Projects(){
                     <Carousel.Item>
                         <img className="d-block w-100" src={trouvetonplat}/>
                         <Carousel.Caption>
-                            <h3><a href="https://trouvetonplat.alwaysdata.net" target="_blank">Trouve ton plat</a></h3>
+                            <h3><a href="https://github.com/nicz-dsj/trouve-ton-plat" target="_blank">Trouve ton plat</a></h3>
                             <p>2023</p>
                         </Carousel.Caption>
                     </Carousel.Item>
